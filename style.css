@@ -1,0 +1,30 @@
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: -8px;
+}
+
+li a {
+  text-decoration: none;
+  margin: 0;
+  color: #000;
+  opacity: 0.75;
+  padding-left: 30px;
+  font-size: 13px;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
