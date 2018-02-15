@@ -2,27 +2,78 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15%;
+  margin-top: 12%;
+}
+
+.searchbutton {
+  border: 1.75px solid #1112;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  opacity: 0.75;
+}
+
+.searchbutton:hover {
+  opacity: 1;
+  border: 1.75px solid #1112;
+  box-shadow: 1px 1px 5px rgba(0,0,0,.25);
+  background-color: #1111;
+}
+
+.apps {
+  opacity: .55;
+}
+
+.apps:hover {
+  opacity: .85;
+}
+
+.searchbox {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.searchbox:focus {
+  box-shadow: 1px 1px 5px rgba(0,0,0,.25);
+}
+
+.searchbox:hover {
+  box-shadow: 1px 1px 5px rgba(0,0,0,.25);
+}
+
+.signin {
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  background-color: #4387fd;
+  text-align: center;
+  margin-right: 30px;
+  padding: 8px 10px;
 }
 
 body {
   font-family: sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
-  margin-left: -8px;
+  margin-top: 0;
+}
+
+ul li {
+  margin-top: 5px;
+}
+
+
+li {
+  padding: 10px;
 }
 
 li a {
   text-decoration: none;
-  margin: 0;
   color: #000;
-  opacity: 0.75;
-  padding-left: 30px;
-  font-size: 13px;
 }
 
 li a:hover {
